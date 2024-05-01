@@ -36,6 +36,7 @@ public class Main {
 				case 3: eliminarEfemeride();
 					break;
 				case 4: modificarEfemeride();
+					break;
 				case 5: System.out.println(" PROCESO TERMINADO");
 						seguir = false;
 					break;
