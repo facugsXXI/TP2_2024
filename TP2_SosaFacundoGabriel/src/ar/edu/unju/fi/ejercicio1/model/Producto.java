@@ -18,14 +18,7 @@ public class Producto {
 	public Producto() {
 		
 	}
-	public Producto(String codigo, String descripcion, double precioUnitario, OrigenFabricacion origenFabricacion,
-			Categoria categoria) {
-		this.codigo = codigo;
-		this.descripcion = descripcion;
-		this.precioUnitario = precioUnitario;
-		this.origenFabricacion = origenFabricacion;
-		this.categoria = categoria;
-	}
+	
 
 	public String getCodigo() {
 		return codigo;

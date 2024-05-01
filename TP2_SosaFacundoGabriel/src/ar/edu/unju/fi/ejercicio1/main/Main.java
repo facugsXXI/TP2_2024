@@ -121,6 +121,7 @@ public class Main {
 		boolean modificar = false;
 		System.out.println("Ingrese el codigo del producto:");
 		String nombreProducto = scanner.nextLine();
+		
 		for(Producto producto2 : productos) {
 			if(producto2.getCodigo().equals(nombreProducto)) {
 				modificar = true;
@@ -152,7 +153,10 @@ public class Main {
 					default: 
 					};
 				} while(modificar);	
-		}
+				
+			}else {
+				System.out.println("!!PRODUCTO NO ENCONTRADO!!");
+			}
 			
 	}
 		
